@@ -1,42 +1,51 @@
 @charset "utf-8";
 /* CSS Document */
+*[box-sizing: border-box;]
 
-
-
-body{
-	background-color:#D2DCE7
-}
+background-color:#D2DCE7
 #container{
 	width:1020px;
 	margin:0 auto;
 }
 header{
-	background-color:#4A817C;
-	width: 100%;
-	height: 150px
+    width: 100%;
+    height: 150px;
+    background-image: url("tiedye.jpg");
 }
 nav{
 	background-color:#D3CE47;
 	width:100%;
 	height:35px;
+	margin-top: 10px;
 }
 .TOO_RAD{
-	width:350px;
+	width:355px;
 	background-color:#ECEFCF;
 	height:400px;
 	float:left;
+	margin-right:15px;
+	border:thick inset
 }
 #Othert_Art{
-	width:350px;
+	width:355px;
 	background-color:#ECEFCF;
 	height:400px;
 	float:left;
+	margin-right:15px;
+	border:thick inset
 }
 #More{
-	width:350px;
+	width:354px;
 	background-color:#ECEFCF;
 	height:400px;
 	float:left;
+	margin-right:15px;
+	border:thick inset
+}
+#art{
+	padding-top: 5px;
+	padding-right: 10px;
+	padding-left: 10px;
 }
 footer{
 	background-color:#F7F7B2;
